@@ -1,0 +1,5 @@
+background: #5cd371!important;
+btn: #ef4f7b;
+text: #0b1e48
+
+

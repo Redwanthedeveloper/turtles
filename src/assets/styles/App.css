@@ -1,0 +1,28 @@
+.Collapsible span {
+  font-family: andes !important;
+  font-weight: 900 !important;
+  font-size: 1.25rem !important;
+  text-transform: uppercase;
+  color: #fff !important;
+}
+.Collapsible__contentOuter span {
+  font-family: 'pangram' !important;
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  text-transform: lowercase !important;
+}
+.hero {
+  background: url('../images/banner.gif') no-repeat fixed;
+  background-size: cover;
+  background-position: center center;
+  height: 95vh;
+}
+nav {
+  background: #556262b0;
+}
+
+@media only screen and (min-width: 1536px) {
+  .Collapsible span {
+    font-size: 1.5rem !important;
+  }
+}

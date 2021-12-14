@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'andes';
+  src: local('andes'), url('../fonts/andes-rounded-black.woff2');
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'andes';
+  src: local('andes'), url('../fonts/andes-rounded-bold.woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'pangram';
+  src: local('pangram'), url('../fonts/pangram-black.woff2');
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'pangram';
+  src: local('pangram'), url('../fonts/pangram-bold.woff2');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'pangram';
+  src: local('pangram'), url('../fonts/pangram-medium.woff2');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'pangram';
+  src: local('pangram'), url('../fonts/pangram-regular.woff2');
+  font-weight: 400;
+}
+
+html,
+body {
+  font-family: 'andes' !important;
+  font-family: 'pangram' !important;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #070707;
+}
+
+.icon svg {
+  color: #e33e4b;
+}
