@@ -1,4 +1,5 @@
 import React from 'react';
+import roadmapImage from '../assets/images/roadmap.jpg';
 
 const Roadmap = () => {
   return (
@@ -25,10 +26,11 @@ const Roadmap = () => {
             </p>
           </div>
           <div className='main__roadmap'>
+            <img src={roadmapImage} alt='' className='max-w-full mt-2' />
             {/* <h3 className='font-bold uppercase text-2xl text-btn pt-6'>
               roadmap
             </h3> */}
-            <div
+            {/* <div
               className='phases__container bg-secondary py-6 px-8 rounded-md mt-10'
               data-aos='fade-right'
               data-aos-duration='1500'
@@ -117,7 +119,7 @@ const Roadmap = () => {
                 - If you hold more your chance of getting an airdrop giveaway
                 increeses. <br />
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
